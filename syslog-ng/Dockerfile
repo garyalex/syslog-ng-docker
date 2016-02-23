@@ -17,4 +17,4 @@ EXPOSE 514
 EXPOSE 601
 EXPOSE 6514
 
-ENTRYPOINT ["/usr/sbin/syslog-ng", "-F"]
+ENTRYPOINT ["/usr/sbin/syslog-ng"]
