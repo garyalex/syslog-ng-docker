@@ -1,6 +1,7 @@
 FROM debian:latest
 MAINTAINER Andras Mitzki <andras.mitzki@balabit.com>
 
+RUN mkdir /var/log/HOSTS
 RUN apt-get update -qq && apt-get install -y \
     wget
 
